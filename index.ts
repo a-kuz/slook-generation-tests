@@ -118,7 +118,7 @@ images: string[]
             `${new Date().toJSON()} ${id} ${status.data.payload.status} `
           );
           if (task.status === "COMPLETED") {
-            saveResult(status.data.payload.images, task.id);
+            //saveResult(status.data.payload.images, task.id);
             task.endTime = Date.now();
             task.executionTime =
               Math.round(status.data.payload.executionTime / 100) / 10;
