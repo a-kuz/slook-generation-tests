@@ -34,7 +34,7 @@ async function runTest() {
     url: startUrl,
     headers: {
       "Content-Type": "application/json",
-      Authorization: "Bearer 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",
+      
     },
     data,
   };
@@ -92,8 +92,7 @@ async function runTest() {
             url: statusUrl,
             headers: {
               "Content-Type": "application/json",
-              Authorization:
-                "Bearer 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",
+              
             },
             data,
           };
